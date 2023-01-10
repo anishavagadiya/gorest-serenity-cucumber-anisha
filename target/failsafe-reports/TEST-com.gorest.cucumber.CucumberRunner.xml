@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gorest.cucumber.CucumberRunner" time="1.357" tests="31" errors="0" skipped="9" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\vagad\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\vagad\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Users\vagad\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\vagad"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="vagad"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="When User sends a GET request to users endpoint" classname="Scenario: Check if the gorest application can be accessed by users" time="0"/>
+  <testcase name="Then User must get back a valid status code 200" classname="Scenario: Check if the gorest application can be accessed by users" time="0"/>
+  <testcase name="Scenario: Check if the gorest application can be accessed by users" classname="Scenario: Check if the gorest application can be accessed by users" time="1.299"/>
+  <testcase name="When User create a new user by providing the information name,email,gender and status" classname="Scenario: Create a new user &amp; verify if the user is added" time="0">
+    <skipped/>
+    <system-err><![CDATA[8944 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Create a new user & verify if the user is added
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Then User verify user is created" classname="Scenario: Create a new user &amp; verify if the user is added" time="0">
+    <skipped/>
+    <system-err><![CDATA[8946 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Create a new user &amp; verify if the user is added" classname="Scenario: Create a new user &amp; verify if the user is added" time="0">
+    <skipped/>
+    <system-err><![CDATA[8946 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+8946 [main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Create a new user & verify if the user is added
+---------------------------------------------------------------------------------
+8950 [pool-3-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Check if the gorest application can be accessed by users to file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\0d4762aecd72222fab7eebc49e6fd20e1d53097952e2373ca27d5084c51619a5.json (using temp file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\0d4762aecd72222fab7eebc49e6fd20e1d53097952e2373ca27d5084c51619a5.json2da558c6-7132-49c8-b648-4d32c6136478)
+8950 [pool-3-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Create a new user & verify if the user is added to file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\08d547ddaccfd9845bbe176d4ec537e5cbf0a2f8c09f7a5535fa14aa578ca70a.json (using temp file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\08d547ddaccfd9845bbe176d4ec537e5cbf0a2f8c09f7a5535fa14aa578ca70a.json96939761-e0f0-4372-bcc1-acd3699cb6ff)
+8962 [pool-4-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the gorest application:Check if the gorest application can be accessed by users in 0d4762aecd72222fab7eebc49e6fd20e1d53097952e2373ca27d5084c51619a5.html in directory target\site\serenity  
+8965 [pool-4-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the gorest application:Create a new user & verify if the user is added in 08d547ddaccfd9845bbe176d4ec537e5cbf0a2f8c09f7a5535fa14aa578ca70a.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Create a new user &amp; verify if the user is added" classname="Scenario: Create a new user &amp; verify if the user is added" time="0.037"/>
+  <testcase name="When User update with &quot;&lt;name&gt;&quot; and &quot;&lt;email&gt;&quot;" classname="Scenario: Update a created user &amp; verify if the user is updated" time="0">
+    <skipped/>
+    <system-err><![CDATA[8982 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Update a created user & verify if the user is updated
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Then User verify that user is updated" classname="Scenario: Update a created user &amp; verify if the user is updated" time="0">
+    <skipped/>
+    <system-err><![CDATA[8983 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Update a created user &amp; verify if the user is updated" classname="Scenario: Update a created user &amp; verify if the user is updated" time="0">
+    <skipped/>
+    <system-err><![CDATA[8983 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+8983 [main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Update a created user & verify if the user is updated
+---------------------------------------------------------------------------------
+8987 [pool-5-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Check if the gorest application can be accessed by users to file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\0d4762aecd72222fab7eebc49e6fd20e1d53097952e2373ca27d5084c51619a5.json (using temp file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\0d4762aecd72222fab7eebc49e6fd20e1d53097952e2373ca27d5084c51619a5.json1f7f5665-8397-47cc-a835-ad12c82cf037)
+8987 [pool-5-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Create a new user & verify if the user is added to file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\08d547ddaccfd9845bbe176d4ec537e5cbf0a2f8c09f7a5535fa14aa578ca70a.json (using temp file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\08d547ddaccfd9845bbe176d4ec537e5cbf0a2f8c09f7a5535fa14aa578ca70a.json19814e0a-333a-4238-94ae-a7967e67ef97)
+8988 [pool-5-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Update a created user & verify if the user is updated to file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\2a29b0391d9cbb82024d617a736b2d2595d2e0d2278caf6731b7afefb6ef2812.json (using temp file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\2a29b0391d9cbb82024d617a736b2d2595d2e0d2278caf6731b7afefb6ef2812.json08aaab88-b00b-462d-8aad-aabd1ffc0264)
+8995 [pool-6-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the gorest application:Check if the gorest application can be accessed by users in 0d4762aecd72222fab7eebc49e6fd20e1d53097952e2373ca27d5084c51619a5.html in directory target\site\serenity  
+8997 [pool-6-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the gorest application:Create a new user & verify if the user is added in 08d547ddaccfd9845bbe176d4ec537e5cbf0a2f8c09f7a5535fa14aa578ca70a.html in directory target\site\serenity  
+8999 [pool-6-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the gorest application:Update a created user & verify if the user is updated in 2a29b0391d9cbb82024d617a736b2d2595d2e0d2278caf6731b7afefb6ef2812.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Update a created user &amp; verify if the user is updated" classname="Scenario: Update a created user &amp; verify if the user is updated" time="0.029"/>
+  <testcase name="When User delete created user with id" classname="Scenario: Delete a created user &amp; verify if the user is deleted" time="0">
+    <skipped/>
+    <system-err><![CDATA[9011 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Delete a created user & verify if the user is deleted
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Then User verify that user is deleted and get the status code 204" classname="Scenario: Delete a created user &amp; verify if the user is deleted" time="0">
+    <skipped/>
+    <system-err><![CDATA[9012 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Delete a created user &amp; verify if the user is deleted" classname="Scenario: Delete a created user &amp; verify if the user is deleted" time="0">
+    <skipped/>
+    <system-err><![CDATA[9012 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+9013 [main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Delete a created user & verify if the user is deleted
+---------------------------------------------------------------------------------
+9016 [pool-7-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Create a new user & verify if the user is added to file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\08d547ddaccfd9845bbe176d4ec537e5cbf0a2f8c09f7a5535fa14aa578ca70a.json (using temp file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\08d547ddaccfd9845bbe176d4ec537e5cbf0a2f8c09f7a5535fa14aa578ca70a.json49d5dae8-6928-4166-8ac5-bae8ed9d9a7a)
+9016 [pool-7-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Update a created user & verify if the user is updated to file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\2a29b0391d9cbb82024d617a736b2d2595d2e0d2278caf6731b7afefb6ef2812.json (using temp file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\2a29b0391d9cbb82024d617a736b2d2595d2e0d2278caf6731b7afefb6ef2812.json46096c1d-0ea1-4988-9357-116086337bcb)
+9016 [pool-7-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Check if the gorest application can be accessed by users to file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\0d4762aecd72222fab7eebc49e6fd20e1d53097952e2373ca27d5084c51619a5.json (using temp file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\0d4762aecd72222fab7eebc49e6fd20e1d53097952e2373ca27d5084c51619a5.json15c7aac1-fe34-4466-bed6-56ee28d4337a)
+9017 [pool-7-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Delete a created user & verify if the user is deleted to file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\e90bc8e0f8ea706b16b7fedf970f9595d5a7a7e1c617f82c7a8f08f6cc9f0754.json (using temp file C:\Users\vagad\IdeaProjects\gorest-serenity-cucumber-anisha\target\site\serenity\e90bc8e0f8ea706b16b7fedf970f9595d5a7a7e1c617f82c7a8f08f6cc9f0754.json3852ca55-8503-4986-a4d3-f4e89e632fe9)
+9044 [pool-8-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the gorest application:Create a new user & verify if the user is added in 08d547ddaccfd9845bbe176d4ec537e5cbf0a2f8c09f7a5535fa14aa578ca70a.html in directory target\site\serenity  
+9044 [pool-8-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the gorest application:Check if the gorest application can be accessed by users in 0d4762aecd72222fab7eebc49e6fd20e1d53097952e2373ca27d5084c51619a5.html in directory target\site\serenity  
+9044 [pool-8-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the gorest application:Delete a created user & verify if the user is deleted in e90bc8e0f8ea706b16b7fedf970f9595d5a7a7e1c617f82c7a8f08f6cc9f0754.html in directory target\site\serenity  
+9045 [pool-8-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the gorest application:Update a created user & verify if the user is updated in 2a29b0391d9cbb82024d617a736b2d2595d2e0d2278caf6731b7afefb6ef2812.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Delete a created user &amp; verify if the user is deleted" classname="Scenario: Delete a created user &amp; verify if the user is deleted" time="0.049"/>
+  <testcase name="Given GoRest application is running" classname="| Anya | female | Anu11@example.com | active |" time="0"/>
+  <testcase name="When User creates a new user by name &quot;Anya&quot; gender &quot;female&quot; email &quot;Anu11@example.com&quot; status &quot;active&quot;" classname="| Anya | female | Anu11@example.com | active |" time="0"/>
+  <testcase name="Then User verifies that the user with name &quot;Anya&quot; is created" classname="| Anya | female | Anu11@example.com | active |" time="0"/>
+  <testcase name="And User updates created user by providing the information name &quot;Anya&quot; email &quot;Anu11@example.com&quot;" classname="| Anya | female | Anu11@example.com | active |" time="0"/>
+  <testcase name="And User with name &quot;Anya&quot; is updated successfully" classname="| Anya | female | Anu11@example.com | active |" time="0"/>
+  <testcase name="And User delete created user using name &quot;Anya&quot;" classname="| Anya | female | Anu11@example.com | active |" time="0"/>
+  <testcase name="Then User is deleted successfully from the application" classname="| Anya | female | Anu11@example.com | active |" time="0"/>
+  <testcase name="| Anya | female | Anu11@example.com | active |" classname="| Anya | female | Anu11@example.com | active |" time="0.001"/>
+  <testcase name="Given GoRest application is running" classname="| Ansh | Male | Ans11@example.com | active |" time="0"/>
+  <testcase name="When User creates a new user by name &quot;Ansh&quot; gender &quot;Male&quot; email &quot;Ans11@example.com&quot; status &quot;active&quot;" classname="| Ansh | Male | Ans11@example.com | active |" time="0"/>
+  <testcase name="Then User verifies that the user with name &quot;Ansh&quot; is created" classname="| Ansh | Male | Ans11@example.com | active |" time="0"/>
+  <testcase name="And User updates created user by providing the information name &quot;Ansh&quot; email &quot;Ans11@example.com&quot;" classname="| Ansh | Male | Ans11@example.com | active |" time="0"/>
+  <testcase name="And User with name &quot;Ansh&quot; is updated successfully" classname="| Ansh | Male | Ans11@example.com | active |" time="0"/>
+  <testcase name="And User delete created user using name &quot;Ansh&quot;" classname="| Ansh | Male | Ans11@example.com | active |" time="0"/>
+  <testcase name="Then User is deleted successfully from the application" classname="| Ansh | Male | Ans11@example.com | active |" time="0"/>
+  <testcase name="| Ansh | Male | Ans11@example.com | active |" classname="| Ansh | Male | Ans11@example.com | active |" time="0.057"/>
+</testsuite>
